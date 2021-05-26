@@ -1,0 +1,83 @@
+let yordamida container2 o'zgaruchi ochamiz va qiymatiga container-two class beramiz
+let yordamida container3 o'zgaruchi ochamiz va qiymatiga container-three class beramiz
+let yordamida checkIcon o'zgaruchi ochamiz va qiymatiga check-icon id beramiz
+let yordamida xIcon o'zgaruchi ochamiz va qiymatiga x-icon id beramiz
+let yordamida i o'zgaruchi ochamiz va qiymatiga 0 beramiz
+
+typeNote() function ochamiz
+if() yordamida tekshrish shartini yozamiz
+agar container3 style display teng bo'sa none qiymatga container3 style display teng bo'sin block ga
+else - aks holda container3 style display teng bo'sin none ga
+typeNote() function ni html digi button da chaqiramiz
+
+xIcon ga addEventListener, click, callback function
+typeNote() function chaqiramiz
+
+
+createNote() function ochamiz
+
+
+checkIcon ga addEventListener, click, callback function
+createNote() function chaqiramiz
+
+let bilan noteText ozgaruvchi ochamiz va html digi id note-text ni value sini olamiz
+
+let bilan node0 ochamiz va qiymatida create Element yozib div ochamiz
+
+let bilan node1 ochamiz qiymatiga create Element yozib yengi h1 ochamiz
+
+endi node0 da o hilgan yengi div ichiga yengi ochilgan h1 joylashtiramiz
+innerHTML qilib
+
+node1 yani h1 ga style attribute yozamiz 
+
+node1 ga style beramiz style margin boladi qiymatiga margin() function chaqiramiz
+
+node1 ga style beramiz style ga transform boladi qiymatiga transform () function chaqiramiz
+
+node1 ga style beramiz style ga background boladi qiymatiga color() function chaqiramiz
+
+node0 ga appendChild yozib node1 berib qoyamiz 
+
+container2 insertAdjacentElement beforeend node0 yozamiz
+
+node0 addEventListener, mouseenter, callback function
+node0 ga style beramiz style transform boladi qiymatiga scale beramiz 1.1
+
+node0 addEventListener, mouseleave, callback function 
+node0 ga style beramiz style transform boladi qiymat scale beramiz 1
+
+node0 addEventListener, dblclick, callback function
+node0 ga remove() metodini beramiz
+
+html digi id note-text value sini bosh qilishimiz kere
+
+
+function yasimiz margin() nomli 
+ichida let bilan yengi o'zgaruvchi ochamiz random_margin digan qiymatiga massiv yozamiz massiv ichida har hil margin qiymatlari bolishi kere string turida
+va return qilamiz random_margin massivi ichiga Math.florr() Math.random() random_margin kopaytiramiz 
+
+function yasimiz color() nomli
+yengi ozgaruvchi ochamiz random_color nomli let bilan faqat qiymati massiv massiv ichiga har hil color beramiz string turida
+agar i ozgaruvchi kotta bosa random_color ohirgi uzunligidan yani random _color ohirgi uzunligiga borganda 
+i ozgaruvchi ni 0 ga teng qilamiz 
+return qilishimiz kere chiqgan jovob qaytarishi kere function rundom_color massivi ichiga i o'zgaruvchini inkriment qilamiz
+
+
+
+
+
+
+
+
+'style', "width: 250px; height: 250px; font-size: 26px; padding: 25px; margin-top: 10px; overflow: hidden; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75)"
+
+
+
+"rotate(3deg)", "rotate(1deg)", "rotate(-1deg)", "rotate(-3deg)", "rotate(-5deg)", "rotate(-10deg)"
+
+
+"#c2ff3d", "#ff3de8", "3dc2ff", "#04e022", "#bc83e6", "#ebb328"
+
+
+"5px", "10px", "15px"
