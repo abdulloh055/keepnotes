@@ -24,7 +24,7 @@ function createNote () {
     let h1 = document.createElement('h1')
     h1.innerHTML = noteText
     h1.setAttribute('style',
-    "width: 250px; height: 250px; font-size: 26px; padding: 25px; display: flex; justify-content: flex-center; flex-wrap: wrap; margin-top: 10px; overflow: hidden;  box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75)")
+    "word-break: break-all; width: 250px; height: 250px; font-size: 26px; padding: 25px; display: flex; justify-content: flex-center; flex-wrap: wrap; margin-top: 10px; overflow: hidden;  box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75)")
     h1.style.margin = margin()
     h1.style.transform = rotate()
     h1.style.backgroundColor = color()
